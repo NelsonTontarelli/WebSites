@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn-SignUp | Sign In</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1 class="bounce-effect"><a href="index.html">Nelson.T</a></h1>
+      </div>
+      <nav class="nav-link">
+        <ul class="list-link">
+          <li>
+            <a href="#"><p class="bounce-effect">Home</p></a>
+          </li>
+          <li>
+            <a href="contactus.html"><p class="bounce-effect">Contact Us</p></a>
+          </li>
+          <li>
+            <a href="register.html">
+              <p class="bounce-effect">
+                Sign In
+                <i class="fa-solid fa-user" id="login-icon"></i>
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="container-login">
+      <div>
+        <form class="form-login">
+          <label for="email">
+            <p>EMAIL - USERNAME</p>
+            <input type="text" name="email" id="email" />
+          </label>
+          
+          <label for="password" id="password-label">
+            <p>PASSWORD</p>
+            <input type="password" name="password" id="password" />
+            <i class="fa-regular fa-eye" onclick="toggleShowPass()"></i>
+            <!-- <i class="fa-regular fa-eye-slash"></i> -->
+          </label>
+
+          <div class="container-buttons">
+            <button>Enter</button>
+            <a href="register.html">Are you not log in?</a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <p>
+          <a href="https://www.github.com/NelsonTontarelli">
+            GitHub
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="../script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script
+    src="https://kit.fontawesome.com/e1046cc176.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
